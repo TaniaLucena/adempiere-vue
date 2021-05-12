@@ -42,5 +42,11 @@ En la versión de escritorio se hace clic sobre el campo para visualizar el men�
 
 En la versión de escritorio se hace clic sobre el campo para visualizar el menú desplegado por el mismo, luego se selecciona la opción "**Acercar**", para visualizar el registro en la ventana donde fue cargado o creado el mismo.
 
+.. only:: html
+
+   .. figure:: how-to-use-it-in-the-desktop-version.gif
+
+      Cómo se utiliza en la versión de Escritorio.
+
 ![Cómo se utiliza en la versión móvil]('/images/components/zoom-in/how-to-use-it-in-the-mobile-version.gif' "Cómo se utiliza en la versión móvil")
 
