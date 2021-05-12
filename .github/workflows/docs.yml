@@ -7,7 +7,7 @@ name: Build Project
 # Controls when the action will run. 
 on:
   push:
-    branches: [ master, develop ]
+    branches: [ 10-05-21, 10-05-21 ]
   release:
     types: [created]
 
@@ -36,7 +36,7 @@ jobs:
              npm run build
       - run: |
             cd docs
-            git clone https://github.com/adempiere/adempiere-vue.git --branch gh-pages --single-branch gh-pages
+            git clone https://github.com/TaniaLucena/adempiere-vue.git --branch gh-pages --single-branch gh-pages
             cp -r .vuepress/dist/* gh-pages/
             cd gh-pages
             touch .nojekyll 
