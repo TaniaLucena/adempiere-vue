@@ -290,7 +290,7 @@ function genComponentSidebar(type = '') {
     '/guide/components/information.md',
     '/guide/components/update.md',
     '/guide/components/translation.md',
-    '/guide/components/zoom-in.md',
+    '/guide/components/zoom-in.md'
   ]
   return mapArr.map(i => {
     return type + i
